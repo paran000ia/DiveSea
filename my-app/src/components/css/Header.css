@@ -1,0 +1,47 @@
+.header {
+  max-width: 1300px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 30px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  color: #555;
+  transition: .3s;
+}
+
+nav a:hover {
+  color: #111;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.search-btn {
+  background: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+
+.connect-btn {
+  background: #111;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+}

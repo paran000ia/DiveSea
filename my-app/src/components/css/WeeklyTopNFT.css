@@ -1,0 +1,52 @@
+.weekly {
+  background: #e7e7e7;
+
+  padding: 80px 0;
+
+  margin-top: 120px;
+}
+
+.weekly-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.weekly h2 {
+  text-align: center;
+
+  font-size: 34px;
+
+  margin-bottom: 50px;
+}
+
+.weekly-navigation {
+  width: fit-content;
+
+  margin: 40px auto 0;
+
+  background: white;
+
+  padding: 8px;
+
+  border-radius: 14px;
+
+  display: flex;
+
+  gap: 10px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.weekly-navigation button {
+  width: 35px;
+  height: 35px;
+
+  border-radius: 10px;
+
+  background: transparent;
+}
+
+.weekly-navigation button:hover {
+  background: #f1f1f1;
+}
