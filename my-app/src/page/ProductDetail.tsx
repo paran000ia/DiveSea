@@ -7,8 +7,8 @@ import Ellipse9 from "../assets/Ellipse9.png";
 
 import BidHistory from "../assets/BidHistory.png";
 
-import Ellipse29 from "../assets/avatars/Ellipse29.png";
-import Ellipse30 from "../assets/avatars/Ellipse30.png";
+import Ellipse29 from "../assets/Ellipse29.png";
+import Ellipse30 from "../assets//Ellipse30.png";
 
 import { nftData } from "../data/nftData";
 
@@ -36,94 +36,8 @@ const ProductDetail = () => {
           />
 
         </div>
-        <div className="bid-section">
 
-  <div className="chart-card">
-
-    <img
-      src={BidChart}
-      alt="chart"
-      className="chart-image"
-    />
-
-  </div>
-
-  <div className="history-card">
-
-    <h3>History of Bid</h3>
-
-    <div className="history-list">
-
-      <div className="history-item">
-
-        <img
-          src={OwnerAvatar}
-          alt=""
-          className="history-avatar"
-        />
-
-        <div className="history-info">
-
-          <h4>Repo</h4>
-
-          <span>May 17, 2022 at 12:08</span>
-
-        </div>
-
-        <strong>♦ 1.55</strong>
-
-      </div>
-
-      <div className="history-item">
-
-        <img
-          src={CreatorAvatar}
-          alt=""
-          className="history-avatar"
-        />
-
-        <div className="history-info">
-
-          <h4>Travo</h4>
-
-          <span>May 18, 2022 at 12:08</span>
-
-        </div>
-
-        <strong>♦ 1.40</strong>
-
-      </div>
-
-    </div>
-
-    <h4 className="your-bid">
-      Your Bid
-    </h4>
-
-    <div className="bid-input">
-
-      <select>
-
-        <option>
-          ETH
-        </option>
-
-      </select>
-
-      <input
-        type="text"
-        placeholder=""
-      />
-
-    </div>
-
-    <button className="submit-btn">
-      Submit
-    </button>
-
-  </div>
-
-</div>
+    
         <div className="product-info">
 
           <h2>Object Sun-Glass</h2>
@@ -195,6 +109,115 @@ const ProductDetail = () => {
         </div>
 
       </div>
+
+        <div className="bid-section">
+
+  <div className="chart-card">
+
+    <img
+      src={BidHistory}
+      alt="Bid Chart"
+      className="chart-image"
+    />
+
+  </div>
+
+  <div className="history-card">
+
+    <h3>
+      History of Bid
+    </h3>
+
+    <div className="history-list">
+
+      <div className="history-item">
+
+        <img
+          src={Ellipse29}
+          alt=""
+          className="history-avatar"
+        />
+
+        <div className="history-info">
+
+          <h4>
+            Repo
+            <span className="verified">
+              ✓
+            </span>
+          </h4>
+
+          <span>
+            May 17, 2022 at 12:08
+          </span>
+
+        </div>
+
+        <strong>
+          ♦ 1.55
+        </strong>
+
+      </div>
+
+      <div className="history-item">
+
+        <img
+          src={Ellipse30}
+          alt=""
+          className="history-avatar"
+        />
+
+        <div className="history-info">
+
+          <h4>
+            Travo
+            <span className="verified">
+              ✓
+            </span>
+          </h4>
+
+          <span>
+            May 18, 2022 at 12:08
+          </span>
+
+        </div>
+
+        <strong>
+          ♦ 1.40
+        </strong>
+
+      </div>
+
+    </div>
+
+    <h4 className="your-bid">
+      Your Bid
+    </h4>
+
+    <div className="bid-input">
+
+      <select>
+
+        <option>
+          ETH
+        </option>
+
+      </select>
+
+      <input
+        type="text"
+        placeholder="Enter amount"
+      />
+
+    </div>
+
+    <button className="submit-btn">
+      Submit
+    </button>
+
+  </div>
+
+</div>
 
       <div className="creator-section">
 
