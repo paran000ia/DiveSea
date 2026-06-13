@@ -1,9 +1,13 @@
 import "./css/Discover.css";
 
 import { marketplaceData } from "../data/marketplaceData";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-const Discover = () => {
+export default function Discover() {
   return (
+    <>
+    <Header />
     <section className="discover">
 
       <h2 className="discover-title">
@@ -71,7 +75,8 @@ const Discover = () => {
       </div>
 
     </section>
+    <Footer />
+    </>
   );
 };
 
-export default Discover;

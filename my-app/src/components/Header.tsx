@@ -10,10 +10,10 @@ const Header = () => {
       </div>
 
       <nav>
-        <a href="#">Discover</a>
-        <a href="#">Creators</a>
-        <a href="#">Sell</a>
-        <a href="#">Stats</a>
+        <a href="/discover">Discover</a>
+        <a href="/creators">Creators</a>
+        <a href="/sell">Sell</a>
+        <a href="/stats">Stats</a>
       </nav>
 
       <div className="header-buttons">

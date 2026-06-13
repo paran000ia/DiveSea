@@ -7,6 +7,7 @@ import Marketplace from "../components/Marketplace";
 import WeeklyTopNFT from "../components/WeeklyTopNFT";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
+import ProductDetail from "./ProductDetail";
 
 export default function Home() {
     return (
@@ -19,6 +20,7 @@ export default function Home() {
       <InnerCollector />
       <CommunityFAQ />
       <CTA />
+      <ProductDetail />
       <Footer />
     </>
   );
