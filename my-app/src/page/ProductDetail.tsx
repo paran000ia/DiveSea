@@ -223,7 +223,8 @@ const ProductDetail = () => {
 
         <h2>From Creator</h2>
 
-        <div className="creator-grid">
+        <a href="/Details">
+            <div className="creator-grid">
 
           {nftData.map((item) => (
 
@@ -262,6 +263,7 @@ const ProductDetail = () => {
           ))}
 
         </div>
+        </a>
 
       </div>
 
